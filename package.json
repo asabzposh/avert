@@ -6,9 +6,12 @@
   "directories": {
     "lib": "lib"
   },
+  "engines": {
+    "node": "8.9.3"  
+  },
   "scripts": {
     "test": "lab -c -v -L -a code",
-    "test-cover": "lab -c -v -L -a code -r html -o ./coverage.html -L && open ./coverage.html",    
+    "test-cover": "lab -c -v -L -a code -r html -o ./coverage.html -L && open ./coverage.html",
     "start": "node lib/index.js"
   },
   "dependencies": {
