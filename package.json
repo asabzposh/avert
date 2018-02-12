@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "8.9.3"  
+    "node": "8.9.3"
   },
   "scripts": {
     "test": "lab -c -v -L -a code",
@@ -41,6 +41,7 @@
     "code": "^5.1.2",
     "coveralls": "^3.0.0",
     "hapi": "^17.2.0",
+    "istanbul": "^0.4.5",
     "lab": "^15.2.1"
   }
 }
