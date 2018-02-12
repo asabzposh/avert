@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "lab -c -v -L -a code",
-    "cover": "lab -c -v -L -a code -r html -o ./coverage.html -L && open ./coverage.html",
+    "cover": "lab -c -v -L -a code",
     "start": "node lib/index.js"
   },
   "dependencies": {
