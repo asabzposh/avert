@@ -1,0 +1,12 @@
+# fs
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# libs
+node_modules/*
+
+
+coverage.html

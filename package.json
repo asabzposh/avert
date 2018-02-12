@@ -1,0 +1,41 @@
+{
+  "name": "avert",
+  "version": "1.0.0",
+  "description": "HapiJS request sanitizer.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "lab -cLv -t 100",
+    "start": "node lib/index.js"
+  },
+  "dependencies": {
+    "hoek": "^5.0.2",
+    "joi": "^13.1.2",
+    "lodash": "^4.17.5",
+    "sanitizer": "^0.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asabzposh/avert.git"
+  },
+  "keywords": [
+    "hapi",
+    "request",
+    "sanitizer"
+  ],
+  "author": "Areeb Sabzposh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asabzposh/avert/issues"
+  },
+  "homepage": "https://github.com/asabzposh/avert#readme",
+  "devDependencies": {
+    "blipp": "^3.0.0",
+    "boom": "^7.1.1",
+    "code": "^5.1.2",
+    "hapi": "^17.2.0",
+    "lab": "^15.2.1"
+  }
+}
