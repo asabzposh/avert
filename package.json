@@ -36,12 +36,12 @@
   },
   "homepage": "https://github.com/asabzposh/avert#readme",
   "devDependencies": {
-    "blipp": "^3.0.0",
-    "boom": "^7.1.1",
-    "code": "^5.1.2",
-    "coveralls": "^3.0.0",
-    "hapi": "^17.2.0",
+    "blipp": "^3.1.2",
+    "boom": "^7.3.0",
+    "code": "^5.2.4",
+    "coveralls": "^3.0.2",
+    "hapi": "^18.0.0",
     "istanbul": "^0.4.5",
-    "lab": "^15.2.1"
+    "lab": "^18.0.1"
   }
 }
