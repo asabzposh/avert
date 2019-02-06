@@ -1,6 +1,6 @@
 {
     "name": "avert",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "HapiJS request sanitizer.",
     "main": "lib/index.js",
     "directories": {
