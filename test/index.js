@@ -1,10 +1,10 @@
 'use strict';
 
-const Lab = require('lab');
+const Lab = require('@hapi/lab');
 
 const lab = (exports.lab = Lab.script());
 const Code = require('code');
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 
 const Avert = require('../');
 
@@ -109,8 +109,8 @@ describe('registration and functionality', () => {
             const request = { method: 'GET', url: '/' };
             const res = await server.inject(request);
 
-            expect(res.statusCode).to.equal(200);
-            expect(res.result).to.equal('');
+            expect(res.statusCode).to.equal(204);
+            expect(res.result).to.equal(null);
         } catch (err) {
             expect(err).to.not.exist();
         }
